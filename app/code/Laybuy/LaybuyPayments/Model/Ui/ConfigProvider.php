@@ -36,6 +36,8 @@ final class ConfigProvider implements ConfigProviderInterface
                 self::CODE => [
                     // Config options can be exposed to the UI here.
                     // Example: 'use_sandbox' => $this->config->getUseSandbox()
+
+                    'payment_method_image' => $this->config->getPaymentMethodImage(),
                 ],
             ]
         ];
